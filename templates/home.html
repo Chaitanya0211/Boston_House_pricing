@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Arimo', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f7f2f2;
             margin: 0;
             padding: 0;
         }
@@ -17,7 +17,7 @@
         .container {
             max-width: 500px;
             margin: 50px auto;
-            background-color: #fff;
+            background-color: #f8f6f6;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,6 +27,8 @@
             font-family: 'Pacifico', cursive;
             text-align: center;
             margin-bottom: 20px;
+            color: #007bff;
+            /* Blue color for the header */
         }
 
         form {
@@ -39,6 +41,8 @@
             margin-bottom: 10px;
             border-radius: 3px;
             border: 1px solid #ccc;
+            color: #555;
+            /* Dark gray color for text */
         }
 
         button {
@@ -59,6 +63,8 @@
         .prediction-text {
             text-align: center;
             margin-top: 20px;
+            color: #555;
+            /* Dark gray color for prediction text */
         }
     </style>
 </head>
@@ -86,9 +92,14 @@
         </form>
 
         <div class="prediction-text">
-            {{prediction_text}}
+            <h3>{{prediction_text}} units</h3>
         </div>
     </div>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand" href=https://github.com/Chaitanya0211/Boston_House_pricing.git target="_blank">Made
+            by Chaitanya 😎. Git
+            Link-<strong>https://github.com/Chaitanya0211/Boston_House_pricing.git</strong></a>
+    </nav>
 </body>
 
 </html>
